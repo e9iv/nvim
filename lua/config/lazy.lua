@@ -25,8 +25,9 @@ require("lazy").setup({
   spec = {
     { import = "plugins" },
 },
-  install = { coloscheme = { "vscode" } },
+  install = { coloscheme = { "min-theme" } },
   checker = { enabled = true },
+
 
 })
 

@@ -4,6 +4,7 @@ return {
     "MunifTanjim/nui.nvim",
     "rcarriga/nvim-notify",
   },
+  config = function()
   require("noice").setup({
   lsp = {
     -- override markdown rendering so that **cmp** and other plugins use **Treesitter**
@@ -22,4 +23,5 @@ return {
     lsp_doc_border = false, -- add a border to hover docs and signature help
   },
 })
+  end,
 }
