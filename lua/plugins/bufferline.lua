@@ -2,7 +2,6 @@ return {
 	"akinsho/bufferline.nvim",
 	config = function()
 		require("bufferline").setup {
-			highlights = require('min-theme').bufferline.highlights,
       options = {
 				close_command = "bp|sp|bn|bd! %d",
 				right_mouse_command = "bp|sp|bn|bd! %d",

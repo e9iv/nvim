@@ -4,7 +4,7 @@ return {
   priority = 1000,
   config = function()
     require("min-theme").setup({
-      theme = "light",
+      theme = "dark",
       transparent = false,
       italic = {
         comments = true,
@@ -14,7 +14,7 @@ return {
       },
       overrides = {},
     })
-      vim.cmd.colorscheme "min-theme"
+      -- vim.cmd.colorscheme "min-theme"
     end,
   },
 }
